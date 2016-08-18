@@ -1,0 +1,98 @@
+html { 
+  background: url(../images/Background2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.title {
+	font-family:'Open Sans', sans-serif;
+	position: relative;
+	bottom: -200px;
+	font-size: 35px;
+	background-color: rgba(0,0,0,0);
+	color: #F0F8FF;
+	padding: 10px;
+	padding-top: 5px;
+	height: 60px;
+	width: 1000px;
+	margin:0px auto;
+
+}
+
+.title::after{
+	content:'';
+	height:1px;
+	width: 49%;
+	position:absolute;
+	background-color: #F0F8FF;
+	left:25.5%;
+	bottom: -85px;
+
+
+}
+
+.intro {
+	font-size: 15px;
+	font-family:'Open Sans', sans-serif;
+	position: relative;
+	bottom: -285px;
+	font-size: 35px;
+	background-color: rgba(0,0,0,0);
+	color: #F0F8FF;
+	padding: 10px;
+	padding-top: 5px;
+	height: 50px;
+	width: 540px;
+	margin:0px auto;
+}
+
+.intro em {
+	color: 006400;
+}
+
+
+.mail_button {
+	position: relative;
+	bottom: -310px;
+	font-size: 25px;
+	width: 28px;
+	height: 27px;
+	margin:5px auto;
+	background-color: (0,50,0,0.25);
+	padding: 2px;
+	border-radius: 5%;
+
+
+}
+
+.profile_pic {
+	position: relative;
+	bottom: -550px;
+	height: 200px;
+	width: 200px;
+	margin: 100px auto;
+	border-radius: 50%;
+}
+
+.content {
+	background-color: rgba(0,0,0,0.25);
+	position: relative;
+	bottom: -500px;
+	color: black;
+	padding: 40px;
+	height: 300px;
+	width:300px;
+	margin:100px auto; 
+	border-radius: 5%;
+}
+	
+.buttons {
+	padding: 5px;
+	background-color: rgba(126, 44, 44, 0.25);
+	width: 220px;
+	margin:100px auto;
+}	
+
