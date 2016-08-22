@@ -56,6 +56,36 @@ html,body {
 	color: 006400;
 }
 
+.about {
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px auto;
+	width: 100%;
+	right: -48px;
+	top: -950px;
+	position: relative;
+}
+
+.hello {
+	font-family: 'Open Sans', sans-serif;
+	top: -1015px;
+	position: relative;
+	width: 350px;
+	font-size: 25px;
+	left: -17px;
+}
+
+.hello::after {
+	content:'';
+	height:1px;
+	width: 700px;
+	position:absolute;
+	background-color: #556B2F;
+	left: -175px;
+	bottom: -35px;
+}
+
+
 
 .mail_button {
 	position: relative;
@@ -73,11 +103,13 @@ html,body {
 
 .profile_pic {
 	position: relative;
-	height: 977px;
-	width: 550px;
-	left:5%;
-	bottom: -15px;
+	height: 300px;
+	width: 300px;
+	margin: 0px auto;
 	border-radius: 50%;
+	bottom: -200px;
+	
+	z-index: -1;
 
 	
 	
