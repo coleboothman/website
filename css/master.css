@@ -73,18 +73,20 @@ html,body {
 	width: 350px;
 	font-size: 25px;
 	left: -17px;
+	font-weight: normal;
+
+
 }
 
 .hello::after {
 	content:'';
 	height:1px;
-	width: 700px;
+	width: 1000px;
 	position:absolute;
-	background-color: #556B2F;
-	left: -175px;
+	background-color: #A9A9A9;
+	left: -315px;
 	bottom: -35px;
 }
-
 
 
 .mail_button {
@@ -97,8 +99,6 @@ html,body {
 	background-color: (0,50,0,0.25);
 	padding: 2px;
 	border-radius: 5%;
-
-
 }
 
 .profile_pic {
@@ -107,12 +107,24 @@ html,body {
 	width: 300px;
 	margin: 0px auto;
 	border-radius: 50%;
-	bottom: -200px;
+	bottom: -150px;
 	
 	z-index: -1;
+}
 
-	
-	
+.about_me {
+	font-family: "Open Sans", sans-serif;
+	top: -575px;
+	position: relative;
+	left: 350px;
+}
+
+
+.my_goals {
+	font-family: "Open Sans", sans-serif;
+	top: -635px;
+	left: 1050px;
+	position: relative;
 }
 
 .second_background {
@@ -121,8 +133,6 @@ html,body {
 	color: 006400;
 	background-color: (0,0,0,0.25);
 }
-
-
 
 
 .content {
