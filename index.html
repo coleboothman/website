@@ -1,74 +1,65 @@
-<!doctype html>
-<! personal website for Cole Boothman, created on 8/17/2016>
-
 <html>
-
-	<! head with link to css stylesheet and fontawsome >
-	<head>
-		<link rel="stylesheet" type="text/css" href="css/master.css"> 
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		<script src="https://use.fontawesome.com/4b6ae2e29c.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-
-	</head>
-
-	<! contains the first page including mail button, and introduction and name>
-	<body>
-		<div class = "hero">
-			<div class = "title">
-				<h1 style="text-align:center;"> Cole Boothman </h1>
-			</div>
-		
-			<div class = "intro" style = "font-size: 15px">
-				<h3 style="text-align:center;"> Future <span style= 'color: green'> Software Developer</span> and  Third Year Computer Science student from <span style = 'color: green'> Victoria BC, Canada. </span> </h3>
-			</div>	
-			
-			<div class ="mail_button" style="text-align:center;">
-				<a href= "mailto:coleboothman2@gmail.com"><i class="fa fa-envelope" style = "color:white" aria-hidden="true"></i></a>
-			</div>
-		</div>
+<!-- command slash for comments, write html and press tab for html SAVE file first -->
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/master.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<script src="https://use.fontawesome.com/4b6ae2e29c.js"></script>
 
 
 
-
-		<div class = "profile_pic">
-			<img src = "images/profile_square.png" class = "profile_pic">
-		</div>	
-
-		
-		<div class = "content">
-			<div class = "about" style = "font-size: 60px">
-				<h3> <span style = 'color: green'> Profile </span> </h3> 
-			</div>
-
-			<div class = "hello">
-				<p style ="text-align:center;"> Hello, I'm Cole Boothman.</p>
-			</div>			
-		</div>
-
-		<div class = "about_me" style = "font-size: 29px">
-			<p> <span style = 'color: green'> About me </span> </p>
-		</div>	
-
-		<div class = "about_para">
-			<p> I'm a third year Computer Science student specializing in Software Engineering studying at the University of Victoria. In my spare time I like to play piano, read a good book or spend time outdoors. I also enjoy programming when I have the time and the occasional video game. </p>
+	<title> </title>
+</head>
 
 
-		<div class ="my_goals" style = "font-size: 29px">
-			<p> <span style= 'color: green'> My Goal as Developer </span> </p>
-		</div>		
+<body>
 	
-		<div class = "buttons" style = "font-size: 40px">
-			<a href=""><i class="fa fa-linkedin-square" style = "color:black" style = "font-size: 50px" aria-hidden="true"></i></a>
-			<a href=""><i class="fa fa-facebook-official" style = "color:black" aria-hidden="true"></i></a>
-			<a href=""><i class="fa fa-github" style = "color:black" aria-hidden="true"></i></a>
-			<a href=""><i class="fa fa-instagram" style = "color:black" aria-hidden="true"></i></a>
-		</div>	
+	<div class = "hero">
+		<div class = "title-page">
+			<h1 id = "cole"> Cole Boothman </h1>
+			<hr id = "borderline" > <!-- border below Cole Boothman -->
+			<h4> Future <span style= 'color: green'> Software Developer </span> and Third Year Computer Science student from <span style= 'color: green'> Victoria BC, Canada </span> </h4>
+			<a href= "mailto:coleboothman2@gmail.com"><i  id = "mail" class="fa fa-envelope" style = "color:white" aria-hidden="true"></i></a>
+		</div>
+	</div>	
 
+		<div class = "above_col">
+			<h1 id = "profile"> Profile </h1>
+			<h1 id = "hello"> Hello, I'm Cole Boothman. </h1>
+			<hr id = "second_line">
+		</div>
+			
 
+		<div class = "content">
+			
+			<div class = "left">
+				<div class = "col-md-4">	
+					<h2 id = "about"> About me </h2>
+					<p id = "para"> I am a third year Computer Science student specializing in Software Engineering at the University of Victoria. I enjoy front-end web development, design and working on my own coding projects. When I am not studying or programming I enjoy playing the piano, going to the gym and reading in my spare time. I like working in team environments and working together to design optimized, quality software. </p>
+				</div>
+			</div>	
 
+			<div class = "center">
+				<div class = "col-md-4">	
+					<img id = "profile_pic" src = "images/profile_square.png" class = "profile_pic">
+				</div>
+			</div>	
 
-	</body>
+			<div class = "right">
+				<div class = "col-md-4">	
+					<h2 id = "goal"> My Goal as a Developer </h2>
+					<p id = "para2"> My goal as a future Software Developer is to build safe, relevant, quality software in a timely and orderly manner. Being a programmer means that you never stop learning about aspects of languages, coding and working together with other engineers to form a unique solution. I hope to use my diverse skill set and creative drive for software application development in the near future. </p>
+				</div>
+			</div>	
+		
+		</div>
 
+		<div class = "projects">
+			<h1 id = "header3"> Projects </h1>
+		</div>		
+			
+
+			
+
+</body>
 </html>
