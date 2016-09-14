@@ -99,54 +99,63 @@ html,body {
 
 .projects {
 	background-color: #BFD4DC ;
-	height: 1600px;
+	height: 2050px;
 	width: 100%;
 }
 
 #header3 {
 	font-size: 75px;
 	padding-top: 50px;
+	padding-bottom: 25px;
 	color: #5F9EA0;
 	text-align: center;
 }
 
 #borderline3 {
-	width: 80%;
-	padding-top: 
+	width: 60%;
 }
 
 .images_pg3 {
-	padding-left: 200px;
+		text-align: right;
+		padding-right: 35px;
 }
 
 #battlesnake {
-	width: 60%;
+	width: 50%;
 	border-radius: 15px;
 	margin-bottom: 60px;
 	margin-top: 50px;
 }
 
 #commenter {
-	width: 60%;
+	width: 50%;
 	border-radius: 15px;
 	margin-bottom: 60px;
 }
 
 #starship {
-	width: 60%;
+	width: 50%;
 	border-radius: 15px;
 	margin-bottom: 60px;
 }
 
 #draw {
-	width: 60%;
+	width: 50%;
 	border-radius: 15px;
 	margin-bottom: 60px;
 }
 
 #website {
-	width: 60%;
+	width: 50%;
 	border-radius: 15px;
 	margin-bottom: 60px;
+}
+
+#titles {
+	font-size: 25px;
+}
+
+.descriptions {
+	width: 600px;
 }
 
