@@ -26,6 +26,7 @@ html,body {
     color: #F0F8FF;
 }
 
+
 #cole{
 	font-size: 75px;
 	font-weight: 600;	
@@ -99,8 +100,8 @@ html,body {
 
 .projects {
 	background-color: #BFD4DC ;
-	height: 2050px;
 	width: 100%;
+	height: 1800px;
 }
 
 #header3 {
@@ -112,50 +113,76 @@ html,body {
 }
 
 #borderline3 {
-	width: 60%;
+	width: 61%;
+	background-color: #008000; height: 1px;
+
 }
 
 .images_pg3 {
-		text-align: right;
-		padding-right: 35px;
+	text-align: right;
+	padding-right: 35px;
 }
 
-#battlesnake {
-	width: 50%;
+.battlesnake img {
+	width: 220px;
+	margin: 0;
 	border-radius: 15px;
 	margin-bottom: 60px;
-	margin-top: 50px;
+	margin-left: 335px;
+	
 }
 
-#commenter {
-	width: 50%;
+.commenter img {
+	width: 220px;
 	border-radius: 15px;
 	margin-bottom: 60px;
+	margin-left: 335px;
 }
 
-#starship {
-	width: 50%;
+.starship img {
+	width: 220px;
 	border-radius: 15px;
 	margin-bottom: 60px;
+	margin-left: 335px;
 }
 
-#draw {
-	width: 50%;
+.draw img {
+	width: 220px;
 	border-radius: 15px;
 	margin-bottom: 60px;
+	margin-left: 335px;
 }
 
-#website {
-	width: 50%;
+.website img {
+	width: 220px;
 	border-radius: 15px;
 	margin-bottom: 60px;
+	margin-left: 335px;
 }
 
 #titles {
 	font-size: 25px;
 }
 
-.descriptions {
-	width: 600px;
+.abilities {
+	height: 1000px;
+	width: 100%;
+}
+
+#skills {
+	text-align: center;
+	color: #5F9EA0;
+	padding-top: 15px;
+
+}
+
+#para3 {
+	width: 450px;
+	margin-top: 20px;
+
+}
+
+#gitlink {
+	margin-top: 10px;
 }
 
