@@ -26,7 +26,8 @@ html,body {
     color: #F0F8FF;
 }
 
-.smoothScroll {
+
+#scroll {
 	bottom: 0px;
 	display: block;
 	position: absolute;
