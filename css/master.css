@@ -26,7 +26,7 @@ html,body {
     color: #F0F8FF;
 }
 
-.scroll_down {
+.smoothScroll {
 	bottom: 0px;
 	display: block;
 	position: absolute;
@@ -36,13 +36,16 @@ html,body {
 	z-index: 6;
 	text-align: center;
 	right: 5%;
+	font-weight: 600;
+	font-size: 18px;
+	color: #FFFFFF;
 }
 
 .glyphicon-chevron-down {
 	font-size: 35px;
 	padding-top: 25px;
-}
 
+}
 
 #cole{
 	font-size: 75px;
@@ -63,7 +66,6 @@ html,body {
 	padding-top: 50px;
 	color: #5F9EA0;
 	font-weight: 300;
-
 }
 
 #profile_pic {
@@ -92,7 +94,6 @@ html,body {
 }
 
 #about {
-	
 	color: #5F9EA0;
 }
 
@@ -104,10 +105,15 @@ html,body {
 	font-size: 15px;
 	text-align: left;
 	padding: 0 50px ;
+
 }
 
 #para {
 	padding-left: 75px;
+}
+
+#para2 {
+	max-width: 250px;
 }
 
 
@@ -182,7 +188,7 @@ html,body {
 }
 
 .abilities {
-	height: 1000px;
+	height: 950px;
 	width: 100%;
 }
 
